@@ -1,0 +1,26 @@
+{
+  "name": "geenen-mail-mailgun",
+  "version": "0.1.0",
+  "description": "Hapi geenen-mail mailgun plugin",
+  "keywords": [
+    "hapi",
+    "mail",
+    "mailgun",
+    "geenen-mail",
+    "plugin"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint index.js"
+  },
+  "author": "Glenn Geenen <glenn@geenentijd.be>",
+  "license": "MIT",
+  "dependencies": {
+    "wreck": "9.x.x"
+  },
+  "devDependencies": {
+    "eslint": "3.x.x",
+    "eslint-config-hapi": "9.x.x",
+    "eslint-plugin-hapi": "4.x.x"
+  }
+}
