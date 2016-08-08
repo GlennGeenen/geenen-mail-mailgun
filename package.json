@@ -1,19 +1,32 @@
 {
   "name": "geenen-mail-mailgun",
-  "version": "0.1.0",
-  "description": "Hapi geenen-mail mailgun plugin",
+  "version": "1.0.0",
+  "description": "Hapi geenen-mail mailgun service",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:GlennGeenen/geenen-mail-mailgun.git"
+  },
+  "bugs": {
+    "url": "https://github.com/GlennGeenen/geenen-mail-mailgun/issues"
+  },
   "keywords": [
     "hapi",
     "mail",
     "mailgun",
-    "geenen-mail",
-    "plugin"
+    "geenen-mail"
   ],
   "main": "index.js",
   "scripts": {
     "test": "eslint index.js"
   },
-  "author": "Glenn Geenen <glenn@geenentijd.be>",
+  "author": {
+    "name": "Glenn Geenen",
+    "email": "glenn@geenentijd.be",
+    "url": "https://glenngeenen.be"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
   "license": "MIT",
   "dependencies": {
     "wreck": "9.x.x"

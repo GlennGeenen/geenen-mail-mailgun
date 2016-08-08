@@ -1,6 +1,6 @@
 # Geenen Mail Mailgun service
 
-This is a geenen-mail service for sending emails with MailGun as used by GeenenTijd.
+This is a geenen-mail service for sending emails with MailGun.
 
 ## Options
 
