@@ -7,8 +7,8 @@ let endpoint;
 
 const configure = function (options, callback) {
 
-  apiKey = options.apiKey,
-  endpoint = options.domain;
+  apiKey = options.options.apiKey,
+  endpoint = options.options.domain;
   callback();
 };
 
@@ -18,7 +18,7 @@ const getAuthorizationHeader = function () {
   return `Basic ${authentication.toString('base64')}`;
 };
 
-const getPayload = function (content, options) {
+const getPayload = function (options) {
 
   let payload = `from=${encodeURIComponent(options.from)}`;
   payload += `&to=${encodeURIComponent(options.recipients)}`;
